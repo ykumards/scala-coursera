@@ -1,0 +1,14 @@
+package currying_play
+
+object illustrate {
+  // Higher order functions take other functions as parameters or return values
+  // Simplest is the map function
+  def map_illus(f: Int => Int, in: List[Int]): List[Int] = {
+  	if(in.isEmpty) List()
+  	else f(in.head) :: map_illus(f, in.tail)
+  }                                               //> map_illus: (f: Int => Int, in: List[Int])List[Int]
+  // Testing map_illus
+  println (map_illus((x => x*x), List(1,2,3)))    //> List(1, 4, 9)
+  
+  
+}
