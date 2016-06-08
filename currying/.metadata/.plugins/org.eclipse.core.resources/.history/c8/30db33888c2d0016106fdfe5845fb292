@@ -1,0 +1,5 @@
+package currying_play
+
+object fixed_point {
+  println("Welcome to the Scala worksheet")
+}
