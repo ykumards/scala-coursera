@@ -8,6 +8,7 @@ Honoring the coursera honor code, I'll omit solutions to the HW problems.
 
 #### Contents
 1. [Currying](https://github.com/ykumards/scala-coursera/blob/master/currying/currying_play/src/currying_play/illustrate.sc)
+2. [Fixed Point](https://github.com/ykumards/scala-coursera/blob/master/currying/currying_play/src/currying_play/fixed_point.sc)
 
 
 #### Other Resources
