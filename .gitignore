@@ -1,0 +1,8 @@
+.*
+!.gitignore
+build.sbt
+lib_managed/**
+currying/currying_play/src/main/scala/common/**
+project/**
+submission/**
+target/**
